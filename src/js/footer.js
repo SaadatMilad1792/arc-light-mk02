@@ -7,7 +7,7 @@ export function createFooter() {
   <hr class="footer-barrier">
   <div class="footer-box-l1">
     <div class="footer-box-l2">
-      ARCLIGHT MK I Portfolio Theme<br>© 2025 All rights reserved
+      ARCLIGHT MK II Portfolio Theme<br>© 2025 Milad Saadat<br>Licensed under the MIT License
     </div>
   </div>
   `;
