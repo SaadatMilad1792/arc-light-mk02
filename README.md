@@ -14,7 +14,7 @@ This project is a fully custom static website designed to serve as a personal po
 - `/index.html` - Main landing page of the portfolio  
 - `/css/` - Stylesheets for layout and design  
 - `/js/` - JavaScript files for interactivity  
-- `/components/` - Assets including images, icons, and graphics
+- `/images/` - Assets including images, icons, and graphics  
 
 ## Usage
 1. Clone or download the repository.  
@@ -33,3 +33,6 @@ This static website can be hosted on any platform that supports HTML files, such
 ARCLIGHT MK II Portfolio Theme  
 Copyright (c) 2025 Milad Saadat  
 Licensed under the MIT License. This allows free use, modification, and distribution.
+
+## See Mine in Action
+[View the live portfolio](https://saadatmilad1792.github.io/saadatmilad1792/src/index.html)
