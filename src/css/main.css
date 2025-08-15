@@ -1,0 +1,193 @@
+.main-origin-box {
+  width: var(--main-width);
+  margin-bottom: 16px;
+  scroll-margin: 64px;
+}
+
+.main-inner-box {
+  width: var(--main-width-inner);
+  margin: 0 auto;
+}
+
+/* Main bottom divider barrier */
+.main-barrier-t1 {
+  border: solid;
+  margin-bottom: 16px;
+  border-width: var(--main-br-width);
+  border-color: var(--main-br-color-c1);
+}
+
+.section-title {
+  line-height: 64px;
+  color: var(--main-tx-font-color-c1);
+}
+
+/* -------------- */
+/* -- ABOUT ME -- */
+/* -------------- */
+.info-panel {
+  background-color: var(--info-box-bg-color-c1);
+  padding: 8px;
+  height: 100%;
+  align-items: center;
+  border-radius: 16px;
+}
+
+.profile-img {
+  width: 280px;
+  height: auto;
+  display: block;
+  border-radius: 16px;
+}
+
+.social-grid {
+  display: grid;
+  margin-top: -8px;
+  grid-template-columns: repeat(2, 1fr);
+  list-style: none; 
+}
+
+.social-media-platform {
+  border-radius: 8px;
+  padding: 4px;
+  margin-bottom: 2px;
+  align-items: center;
+  transition: 0.1s ease-in-out;
+}
+
+.social-media-platform:hover {
+  cursor: pointer;
+  background-color: var(--social-hover);
+  transition: 0.1s ease-in-out;
+}
+
+.social-media-platform:hover p {
+  transition: 0.1s ease-in-out;
+}
+
+.social-logo {
+  height: 32px;
+  margin-right: 8px;
+}
+
+.social-description {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.social-link, .social-link:hover, .social-link:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.resume-cv {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: -12px 0px 0px 0px;
+  padding: 4px;
+  text-decoration: none;
+  color: black;
+  line-height: 32px;
+  transition: 0.1s ease-in-out;
+  border-radius: 8px;
+  border: 2px dashed var(--social-border);
+}
+
+.resume-cv:hover {
+  background-color: var(--social-hover);
+  transition: 0.1s ease-in-out;
+}
+
+.description {
+  flex: 1;
+}
+
+.description p {
+  line-height: 24px;
+  text-align: justify;
+}
+
+
+/* Education */
+.school-logo {
+  height: 96px;
+}
+
+.time-span {
+  display: block;
+  padding: 8px 0px 4px 0px;
+  line-height: 12px;
+  font-size: 12px;
+}
+
+.education-title {
+  line-height: 28px;
+  font-size: 20px;
+  margin-bottom: -6px;
+  color: var(--main-tx-font-color-c1);
+}
+
+.award-logo {
+  height: 40px;
+  padding: 4px 0px;
+}
+
+.ach-title {
+  font-size: 16px !important;
+  color: var(--main-tx-font-color-c1);
+}
+
+.ach-grid {
+  display: grid; 
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.thin-line {
+  border-bottom: 1px solid var(--document-barrier);
+}
+
+.pag-control-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  width: 200px;
+}
+
+.exp-nxt-btn, .exp-prv-btn {
+  flex-basis: 32px;
+  flex-shrink: 0;
+  height: 32px;
+  width: 32px;
+  font-size: 20px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  background-color: var(--btn-bg);
+  transition: 0.1s ease-in-out;
+}
+
+.exp-nxt-btn:hover, .exp-prv-btn:hover {
+  transition: 0.1s ease-in-out;
+  background-color: var(--btn-bg-hover);
+  cursor: pointer;
+}
+
+button img {
+  width: 60%;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+.pag-page {
+  font-family: var(--header-tx-font);
+  font-weight: lighter;
+  color: black;
+  font-size: 16px;
+  margin: 0px 16px;
+}

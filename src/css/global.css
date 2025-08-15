@@ -1,0 +1,257 @@
+/* src --> css --> global.css */
+
+/* Importing style sheets for components */
+@import url("./header.css");
+@import url("./main.css");
+@import url("./footer.css");
+
+/* Root variables */
+:root {
+  /* Global variables */
+  --global-tx-font: Tahoma, Roboto, sans-serif;
+
+  /* Header variables */
+  --header-bg-color-c1: rgb(240, 240, 240);
+  --header-br-color-c1: rgb(190, 190, 190);
+  --header-tx-color-c1: rgb(0, 0, 0);
+  --header-tx-font: Tahoma, Roboto, sans-serif;
+  --header-item-font-size: 16px;
+  --header-tx-font-color-c1: rgb(60, 60, 60);
+  --header-tx-font-color-c2: rgb(80, 80, 80);
+  --header-bg-color-nav-item: rgb(210, 210, 210);
+  
+  --header-it-width: 112px;
+  --header-br-width: 1px;
+  --header-height: 64px;
+
+  --header-width-t1: 60%;
+  --header-width: 100%;
+
+  /* Main variables */
+  --main-bg-color-c1: rgb(250, 250, 250);
+  --main-br-width: 1px;
+  --main-br-color-c1: rgb(190, 190, 190);
+  --main-tx-font-color-c1: rgb(80, 80, 80);
+  --main-width-inner: 60%;
+  --main-width: 100%;
+  
+  /* About Me */
+  --info-box-bg-color-c1: rgb(240, 240, 240);
+  --social-border: rgb(60, 60, 60);
+  --social-hover: rgb(210, 210, 210);
+
+  --btn-bg: rgb(230, 230, 230);
+  --btn-bg-hover: rgb(190, 190, 190);
+
+  /* Footer variables */
+  --footer-bg-color-c1: rgb(240, 240, 240);
+  --footer-br-color-c1: rgb(190, 190, 190);
+  --footer-tx-font-color-c1: rgb(80, 80, 80);
+  --footer-br-width: 1px;
+  --footer-height: 64px;
+  --footer-width-t1: 60%;
+  --footer-width: 100%;
+
+}
+
+/* Reset all margins, paddings, and use border-box for all elements initially */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--global-tx-font);
+}
+
+/* Ensure HTML and body take full height */
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--document-body-bg);
+  touch-action: manipulation;
+}
+
+/* Header sticks to the top */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+/* Main starts after header */
+main {
+  flex: 1;
+  margin-top: var(--header-height);
+  background-color: var(--main-bg-color-c1);
+}
+
+/* Row box */
+.row-box {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Col box */
+.col-box {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Generic Gap */
+.gen-gap {
+  gap: 16px;
+}
+
+/* Shadow box */
+.shadow-type-one {
+  background-color: var(--info-box-bg-color-c1);
+  padding: 8px;
+  border-radius: 16px;
+}
+
+.shadow-type-one:hover {
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
+/* Paragraph Types */
+.p-type-one {
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.p-type-two {
+  margin: 4px 0px;
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+
+/* Medium Sized Screens */
+@media (max-width: 1280px) and (min-width: 769px) {
+  :root {
+    --header-width-t1: 80%;
+    --main-width-inner: 80%;
+    --footer-width-t1: 80%;
+  }
+}
+
+/* Small Screens */
+@media (max-width: 768px) {
+  :root {
+    --header-width-t1: 96%;
+    --main-width-inner: 96%;
+    --footer-width-t1: 96%;
+  }
+
+  #aboutMe-countainer {
+    flex-direction: column;
+  }
+  
+  .info-panel {
+    width: 296px;
+    margin: auto;
+  }
+
+  .ach-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/* Large Screens */
+@media (min-width: 1281px) {
+  .hamburger-wrap {
+    display: none;
+  }
+}
+
+/* Below Large Screens Shared Features */
+@media (max-width: 1280px) {
+  .header-nav-box-l2 {
+    position: relative; /* Keeps menu inside its container */
+  }
+
+  .header-nav-box-list {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: calc(100% + 4px); /* Places menu directly under the hamburger icon */
+    right: 0; /* Aligns menu to the right */
+    background: white;
+    border: 1.5px solid var(--footer-br-color-c1);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: fit-content;
+    height: fit-content;
+    min-width: 180px;
+    margin-top: 10px;
+    padding: 10px 0;
+    border-radius: 8px;
+    z-index: 1000;
+  }
+
+  .header-nav-box-anchor {
+    height: 32px;
+  }
+
+  .header-nav-box-list.active {
+    display: flex;
+  }
+
+  .header-nav-box-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .header-nav-box-list ul li {
+    padding: 0px 20px;
+    font-size: 16px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    white-space: nowrap; /* Prevents text from wrapping */
+    width: 100%;
+  }
+
+  .header-nav-box-list ul li:last-child {
+    border-bottom: none;
+  }
+
+  .header-nav-box-list ul li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    width: 100%;
+  }
+
+  .header-nav-box-list ul li:hover {
+    background: #f4f4f4;
+  }
+
+  .hamburger-menu {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+    position: relative;
+    z-index: 1100;
+  }
+}

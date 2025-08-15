@@ -1,0 +1,40 @@
+/* Footer adjustment */
+footer {
+  margin-top: auto;
+}
+
+/* Footer origin box */
+.footer-origin-box {
+  width: var(--footer-width);
+  /* height: var(--footer-height); */
+  background-color: var(--footer-bg-color-c1);
+  color: var(--footer-tx-font-color-c1);
+}
+
+/* Footer navigation box layer 1 */
+.footer-box-l1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: var(--footer-height);
+  width: var(--footer-width);
+}
+
+/* Footer navigation box layer 2 */
+.footer-box-l2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: var(--footer-height);
+  width: var(--footer-width-t1);
+  text-align: center;
+}
+
+/* Footer bottom divider barrier */
+.footer-barrier {
+  border: solid;
+  border-width: var(--footer-br-width);
+  border-color: var(--footer-br-color-c1);
+}

@@ -1,0 +1,114 @@
+/* src --> css --> header.css */
+
+/* Header origin box */
+.header-origin-box {
+  width: var(--header-width);
+  background-color: var(--header-bg-color-c1);
+  position: fixed;
+}
+
+/* Header navigation box layer 1 */
+.header-nav-box-l1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: var(--header-height);
+  width: var(--header-width);
+}
+
+/* Header navigation box layer 2 */
+.header-nav-box-l2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: var(--header-height);
+  width: var(--header-width-t1);
+}
+
+/* Header name div */
+.header-nav-box-name {
+  color: var(--header-tx-font-color-c1);
+  height: 100%;
+  display: flex;
+  font-size: 28px;
+  font-weight: 700;
+  justify-content: left;
+  align-items: center;
+}
+
+/* Header navigation div */
+.header-nav-box-list {
+  color: var(--header-tx-font-color-c2);
+  height: 100%;
+  flex: 1;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+/* Header navigation list [ul] */
+.header-nav-box-item-list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  font-size: var(--header-item-font-size);
+  height: 100%;
+}
+
+/* Header navigation list [anchor] */
+.header-nav-box-anchor {
+  height: 100%;
+  color: var(--header-tx-font-color-c2);
+  text-decoration: none;
+}
+
+.header-nav-box-anchor:visited, .header-nav-box-anchor:active {
+  color: var(--header-tx-font-color-c2);
+}
+
+/* Header navigation list [anchor] --> hover */
+.header-nav-box-anchor:hover {
+  cursor: pointer;
+  background-color: var(--header-bg-color-nav-item);
+}
+
+.hamburger-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(var(--header-height) - 16px);
+  width: calc(var(--header-height) - 16px);
+  margin-top: auto;
+  margin-bottom: auto;
+  border-radius: 12px;
+  z-index: 100;
+}
+
+.hamburger-wrap:hover {
+  cursor: pointer;
+  background-color: var(--header-bg-color-nav-item);
+}
+
+
+/* Header navigation list [li] */
+.header-nav-box-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: var(--header-it-width);
+  
+}
+
+/* Header bottom divider barrier */
+.header-barrier {
+  border: solid;
+  border-width: var(--header-br-width);
+  border-color: var(--header-br-color-c1);
+}
+
+/* Default: Hide hamburger button on large screens */
+.hamburger-menu {
+  display: none;
+}
