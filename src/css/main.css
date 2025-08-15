@@ -113,6 +113,7 @@
 /* Education */
 .school-logo {
   height: 96px;
+  border-radius: 12px;
 }
 
 .time-span {
