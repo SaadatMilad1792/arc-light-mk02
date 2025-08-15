@@ -1,0 +1,40 @@
+{
+  "sectionId": "aboutMe",
+  "userName": "John Doe",
+  "pageTitle": "John Doe | Personal Webpage",
+  "resumeDir": "../src/components/json/aboutMe/resume.pdf",
+  "section": {
+    "name": "About Me"
+  },
+  
+  "body": {
+    "aboutMeImgUrl": "../src/components/json/aboutMe/profilePicture.png",
+    "aboutMeDescription": "Hello, my name is John Doe.<br> I’m a results-driven professional with a passion for turning challenges into opportunities.<br> Over the years, I’ve built expertise in project management, business analysis, and process improvement, helping teams work smarter and achieve better results.<br> I take pride in leading diverse groups, fostering collaboration, and delivering outcomes that truly make an impact.<br> Outside of work, I dedicate time to volunteering, mentoring aspiring professionals, and exploring innovative uses of technology to create positive change.",
+    "socialMedia": [
+      {
+        "imgSrc": "../src/components/social/email.png",
+        "imgTxt": "Email Address",
+        "scLink": "<Email Address>",
+        "tgLink": "_self"
+      },
+      {
+        "imgSrc": "../src/components/social/github.png",
+        "imgTxt": "GitHub",
+        "scLink": "<GitHub Link>",
+        "tgLink": "_blank"
+      },
+      {
+        "imgSrc": "../src/components/social/linkedin.png",
+        "imgTxt": "Linkedin",
+        "scLink": "<Linked-In Link>",
+        "tgLink": "_blank"
+      },
+      {
+        "imgSrc": "../src/components/social/googleScholar.png",
+        "imgTxt": "Google Scholar",
+        "scLink": "<Scholar Link>",
+        "tgLink": "_blank"
+      }
+    ]
+  }
+}

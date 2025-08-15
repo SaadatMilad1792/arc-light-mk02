@@ -14,7 +14,7 @@ This project is a fully custom static website designed to serve as a personal po
 - `/index.html` - Main landing page of the portfolio  
 - `/css/` - Stylesheets for layout and design  
 - `/js/` - JavaScript files for interactivity  
-- `/images/` - Assets including images, icons, and graphics  
+- `/components/` - Assets including images, icons, and graphics
 
 ## Usage
 1. Clone or download the repository.  

@@ -1,0 +1,68 @@
+{
+  "sectionId": "experience",
+  "section": {
+    "name": "Experience"
+  },
+  "body": [
+    {
+      "title": "Gravity-Resistant Cloud Sculpting",
+      "timeSpan": "2034 - 2035",
+      "expTitle": "Stratosphere Art Colony, Planet Nimbus",
+      "jobDescription": "Designed massive sculptures suspended in the upper atmosphere using anti-gravity resonance fields."
+    },
+    {
+      "title": "Neon Forest Ecosystem Engineering",
+      "timeSpan": "2033 - 2035",
+      "expTitle": "Lumina Biome Research Center, Planet Xylon",
+      "jobDescription": "Created self-sustaining neon forests that glow according to local weather patterns and magnetic flux."
+    },
+    {
+      "title": "Hoverboard Choreography for Autonomous Drones",
+      "timeSpan": "2035 - 2036",
+      "expTitle": "SkyDance Labs, Orbiting Station Epsilon",
+      "jobDescription": "Choreographed complex routines for AI-controlled hoverboards performing synchronized aerial shows."
+    },
+    {
+      "title": "Temporal Coffee Infusion Techniques",
+      "timeSpan": "2034 - 2035",
+      "expTitle": "ChronoBrew Institute, Lunar Coffee Belt",
+      "jobDescription": "Developed methods for brewing coffee across different time streams to achieve instant morning energy regardless of hour."
+    },
+    {
+      "title": "Sentient Mushroom Farming",
+      "timeSpan": "2033 - 2036",
+      "expTitle": "Fungi Intelligence Labs, Venus Surface Dome",
+      "jobDescription": "Engineered mushrooms capable of basic communication and problem-solving to assist with ecological tasks."
+    },
+    {
+      "title": "Quantum Origami for Dimensional Mapping",
+      "timeSpan": "2034 - 2036",
+      "expTitle": "FoldSpace Academy, Jupiter Orbit",
+      "jobDescription": "Used quantum origami folding patterns to visualize and navigate higher-dimensional spaces safely."
+    },
+    {
+      "title": "Subterranean Cloud Mining Operations",
+      "timeSpan": "2035 - 2037",
+      "expTitle": "Cumulus Extraction Corp, Titan Underground",
+      "jobDescription": "Led the extraction of rare atmospheric minerals stored in underground cloud pockets using levitation drills."
+    },
+    {
+      "title": "Telekinetic Instrument Development",
+      "timeSpan": "2036 - 2037",
+      "expTitle": "PsiTech Labs, Mercury Research Station",
+      "jobDescription": "Designed musical instruments that can be played entirely via telekinetic control, eliminating the need for physical contact."
+    },
+    {
+      "title": "Artificial Aurora Management",
+      "timeSpan": "2035 - 2036",
+      "expTitle": "Polar Light Control Division, Neptune Orbit",
+      "jobDescription": "Managed and enhanced artificial auroras for entertainment and energy harvesting using electromagnetic field modulation."
+    },
+    {
+      "title": "Liquid Metal Sculpture Animation",
+      "timeSpan": "2036 - 2038",
+      "expTitle": "Molten Arts Studio, Saturn Rings",
+      "jobDescription": "Developed kinetic sculptures composed of liquid metal that dynamically change shape and color according to ambient music."
+    }
+  ]
+}

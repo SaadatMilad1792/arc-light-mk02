@@ -1,0 +1,20 @@
+{
+  "sectionId": "publication",
+  "section": {
+    "name": "Publications"
+  },
+  "body": [
+    {
+      "publication": "Doe, J., Doe1, A., Doe2, B., Doe3, C., Doe4, D., & Doe5, E. (2034). Quantum Jellyfish Migration Patterns in Multi-Dimensional Oceans. Journal of Interplanetary Marine Biology, 12(3). <a href='https://doi.org/10.9999/jimb.2034.12345'>https://doi.org/10.9999/jimb.2034.12345</a>"
+    },
+    {
+      "publication": "Doe, J., Doe6, F., Doe7, G., Doe8, H., & Doe9, I. (2033). Hoverboard Aerodynamics Optimization Using Plasma Fields. International Journal of Anti-Gravity Engineering, 7(2). <a href='https://doi.org/10.9999/ijage.2033.07234'>https://doi.org/10.9999/ijage.2033.07234</a>"
+    },
+    {
+      "publication": "Doe, J., Doe10, J., Doe11, K., & Doe12, L. (2032). Interdimensional Tea Brewing Methods for Parallel Universe Perception. Transdimensional Culinary Science Letters, 5(1). <a href='https://doi.org/10.9999/tcsl.2032.05111'>https://doi.org/10.9999/tcsl.2032.05111</a>"
+    },
+    {
+      "publication": "Doe, J., Doe13, M., Doe14, N., Doe15, O., & Doe16, P. (2035). Telepathic Orchestra Conduction: Neural Synchronization in Zero-Gravity. Journal of Extraterrestrial Musicology, 3(4). <a href='https://doi.org/10.9999/jem.2035.03456'>https://doi.org/10.9999/jem.2035.03456</a>"
+    }
+  ]
+}

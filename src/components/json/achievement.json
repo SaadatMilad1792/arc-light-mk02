@@ -1,0 +1,25 @@
+{
+  "sectionId": "achievement",
+  "section": {
+    "name": "Achievements"
+  },
+  "body": [
+    {
+      "title": "Innovator of the Year",
+      "timeSpan": "2022",
+      "Institution": "Northvale Institute of Advanced Studies - Crestfall City, Avalora",
+      "achLogo": "../src/components/json/achievement/achievement.png",
+      "achDescription": "Awarded <sup>1<sup>st</sup></sup> place for designing a groundbreaking workflow optimization system adopted by multiple departments across the institute."
+    },
+    {
+      "title": "Strategic Leadership Excellence Award",
+      "timeSpan": "2020",
+      "Institution": "Riverside School of Business & Management - Silverford, Norvalla",
+      "achLogo": "../src/components/json/achievement/achievement.png",
+      "achDescription": "Recognized for leading a student consultancy team that achieved a <sup>20%</sup> operational efficiency increase for a partnered non-profit organization."
+    }
+  ],
+  "fter": {
+
+  }
+}

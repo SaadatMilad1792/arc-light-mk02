@@ -1,0 +1,32 @@
+{
+  "sectionId": "education",
+  "section": {
+    "name": "Education"
+  },
+  "body": [
+    {
+      "schoolName": "Crestfall University of Technology",
+      "timeSpan": "2025 - Present",
+      "degree": "Ph.D. in Systems Innovation and Computational Engineering",
+      "schoolAlt": "Crestfall Logo",
+      "schoolLogo": "../src/components/json/education/EDLOGO_1.png",
+      "schoolDescription": "Conducting research on adaptive AI frameworks, quantum-inspired optimization models, and integrated cyber-physical systems to solve complex infrastructure challenges. (Cont.)"
+    },
+    {
+      "schoolName": "Silverford Institute of Advanced Engineering",
+      "timeSpan": "2022 - 2025",
+      "degree": "M.Sc. in Computational Systems and Automation",
+      "schoolAlt": "Silverford Logo",
+      "schoolLogo": "../src/components/json/education/EDLOGO_1.png",
+      "schoolDescription": "Specialized in intelligent automation networks, predictive analytics, and next-generation control systems for large-scale operations."
+    },
+    {
+      "schoolName": "Northvale Polytechnic Academy",
+      "timeSpan": "2018 - 2022",
+      "degree": "B.Sc. in Applied Mechatronics",
+      "schoolAlt": "Northvale Logo",
+      "schoolLogo": "../src/components/json/education/EDLOGO_1.png",
+      "schoolDescription": "Focused on embedded robotics, digital signal processing, and real-time system architecture, graduating with top honors in the faculty."
+    }
+  ]
+}
